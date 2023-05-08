@@ -1,18 +1,7 @@
 # Probabilistic model checking
 A project repo for course CS 6110 at the University of Utah
 
-Probabilistic model checking is a formal technique for analyzing systems that
-exhibit probabilistic behavior. Back-off algorithm is a collision resolution mech-
-anism and Ethernet uses it to reschedule transmissions after collisions between
-two or more hosts. This is called the Ethernet exponential backoff protocol. I
-used this protocol to model it using two probabilistic programming tools, DICE
-and PRISM. I checked and compared the results obtained from a probabilistic
-program of this model with each other and derived conclusions. The main goal
-is to perform probabilistic model checking using some probabilistic model check-
-ers - PRISM and programming languages - DICE. I could derive which servers
-were able to win with what probability against other servers in the network
-using these two tools. The results vary in a few ways but they accurately show
-their probabilities.
+Probabilistic model checking is a formal technique for analyzing systems that exhibit probabilistic behavior. Back-off algorithm is a collision resolution mechanism and Ethernet uses it to reschedule transmissions after collisions between two or more hosts. This is called the Ethernet exponential backoff protocol. I used this protocol to model it using two probabilistic programming tools, DICE and PRISM. I checked and compared the results obtained from a probabilistic program of this model with each other and derived conclusions. The main goal is to perform probabilistic model checking using some probabilistic model checkers - PRISM and programming languages - DICE. I could derive which servers were able to win with what probability against other servers in the network using these two tools. The results vary in a few ways but they accurately show their probabilities.
 
 ## Citations
 DICE - @article{holtzen2020dice,
